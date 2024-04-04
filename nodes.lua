@@ -1,6 +1,6 @@
 local S = warzone.translator
 
--- special protection block for the stash
+--[[ special protection block for the stash (SCRAPPED)
 for _, state in pairs({"flowing", "source"}) do
 	minetest.register_node("warzone:radioactive_"..state, {
 		description = state == "source" and S("Radioactive Protection Source") or S("Flowing Radioactive Protection"),
@@ -62,3 +62,4 @@ for _, state in pairs({"flowing", "source"}) do
 		},
 	})
 end
+]]--
